@@ -1,10 +1,11 @@
-Library Search
+﻿Library Search
 
 ***************
+
 Google Extension
-version 1.0.2
+version 1.0.7
 作成者： mit-nk
-Data:15-7-12
+
 ***************
 
 インストール方法:
