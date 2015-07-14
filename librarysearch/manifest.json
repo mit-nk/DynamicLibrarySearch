@@ -1,0 +1,26 @@
+{
+    "name": "Library Search",
+    "version": "1.0.8.1",
+    "manifest_version": 2,
+
+    "description": "ブラウズ中、気になった本を図書館にあるか簡単に調べる事が出来ます。",
+
+    "options_page": "options.html",
+
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "contextMenus"
+    ],
+
+    "icons": {
+        "16": "./icon/icon_16.png",
+        "48": "./icon/icon_48.png",
+        "128": "./icon/icon_128.png"
+    },
+
+    "background": {
+        "scripts": ["./js/background.js"]
+    }
+}
