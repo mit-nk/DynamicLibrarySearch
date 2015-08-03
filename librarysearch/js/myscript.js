@@ -4,9 +4,9 @@ var options = document.getElementById('select').options;
 document.getElementById('save').onclick = function() {
      localStorage['pref'] = options.item(select.selectedIndex).value;
 
-    document.getElementById("save_gone").innerHTML="<div id='save_gone'>設定を保存しました</div>"
+    document.getElementById("save_gone").innerHTML="<div id='save_gone'>設定を保存しました</div>";
 
-}
+};
 
 document.body.onload = function() {
 
@@ -20,4 +20,4 @@ document.body.onload = function() {
         }
         i++;
     }
-}
+};
